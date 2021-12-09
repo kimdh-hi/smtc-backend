@@ -14,14 +14,11 @@ import org.springframework.web.servlet.mvc.method.annotation.SseEmitter;
 @RestController
 public class NotificationController {
 
-
     private final NotificationService notificationService;
 
     public NotificationController(NotificationService notificationService){
         this.notificationService = notificationService;
     }
-
-
 
     /**
      * 유저 sse 연결
