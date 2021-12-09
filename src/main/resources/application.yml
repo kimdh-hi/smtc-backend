@@ -1,0 +1,27 @@
+
+spring:
+  h2:
+    console:
+      enabled: true
+  datasource:
+    url: jdbc:mysql://springboot-db.cd3omgwnvdqy.ap-northeast-2.rds.amazonaws.com:3306/showmethecode
+    username: kibm63
+    password:
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        default_batch_fetch_size: 100
+        format_sql: true
+    show-sql: true
+  profiles:
+    include: oauth
+
+
+#logging:
+#  level:
+#    org.hibernate: trace
+#
+
+

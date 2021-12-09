@@ -1,0 +1,61 @@
+= Show me the code
+:toc: left
+:doctype: book
+
+
+== 리뷰요청 관련 API
+==== 코드리뷰 요청 API
+include::{snippets}/post-question/http-request.adoc[]
+include::{snippets}/post-question/http-response.adoc[]
+==== 코드리뷰 목록조회 API
+include::{snippets}/get-questions/http-request.adoc[]
+include::{snippets}/get-questions/http-response.adoc[]
+==== 코드리뷰 삭제 API
+include::{snippets}/delete-question/http-request.adoc[]
+include::{snippets}/delete-question/http-response.adoc[]
+==== 코드리뷰 수정 API
+include::{snippets}/put-question/http-request.adoc[]
+include::{snippets}/put-question/http-response.adoc[]
+==== 내가 요청한 코드리뷰 목록조회 API
+include::{snippets}/get-request-reviewList/http-request.adoc[]
+include::{snippets}/get-request-reviewList/http-response.adoc[]
+==== 요청받은 코드리뷰 목록조회 API
+include::{snippets}/get-received-reviewList/http-request.adoc[]
+include::{snippets}/get-received-reviewList/http-response.adoc[]
+==== 해결전 리뷰요청 리뷰어 변경 API
+include::{snippets}/put-question-reviewer/http-request.adoc[]
+include::{snippets}/put-question-reviewer/http-response.adoc[]
+
+== 리뷰요청 답변 관련 API
+==== 답변추가 API
+include::{snippets}/post-answer/http-request.adoc[]
+include::{snippets}/post-answer/http-response.adoc[]
+==== 답변조회 API (나에게 요청된 답변)
+include::{snippets}/get-answers/http-request.adoc[]
+include::{snippets}/get-answers/http-response.adoc[]
+==== 답변수정 API
+include::{snippets}/put-answer/http-request.adoc[]
+include::{snippets}/put-answer/http-response.adoc[]
+==== 답변평가 API (답변시 요청한 사용자가 평가)
+include::{snippets}/post-answer-evaluate/http-request.adoc[]
+include::{snippets}/post-answer-evaluate/http-response.adoc[]
+
+== 댓글 관련 API
+==== 댓글추가 API
+include::{snippets}/post-comment/http-request.adoc[]
+include::{snippets}/post-comment/http-response.adoc[]
+==== 댓글삭제 API
+include::{snippets}/delete-comment/http-request.adoc[]
+include::{snippets}/delete-comment/http-response.adoc[]
+==== 댓글수정 API
+include::{snippets}/put-comment/http-request.adoc[]
+include::{snippets}/put-comment/http-response.adoc[]
+
+
+== 언어이름 관련 API
+==== 언어이름으로 리뷰어 조회 API
+include::{snippets}/get-user-searchByLanguageName/http-request.adoc[]
+include::{snippets}/get-user-searchByLanguageName/http-response.adoc[]
+==== 언어이름으로 언어 이름별 개수 조회 API
+include::{snippets}/get-question-language-count/http-request.adoc[]
+include::{snippets}/get-question-language-count/http-response.adoc[]
