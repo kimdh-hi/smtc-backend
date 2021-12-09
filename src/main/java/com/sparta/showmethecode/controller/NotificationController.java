@@ -21,6 +21,7 @@ public class NotificationController {
         this.notificationService = notificationService;
     }
 
+
     /**
      * 유저 sse 연결
      */
