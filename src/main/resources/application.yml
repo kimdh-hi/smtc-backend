@@ -4,9 +4,10 @@ spring:
     console:
       enabled: true
   datasource:
-    url: jdbc:mysql://springboot-db.cd3omgwnvdqy.ap-northeast-2.rds.amazonaws.com:3306/showmethecode
-    username: kibm63
-    password: kimeuna*6315
+    url: ${mysql_url}
+    username: ${mysql_username}
+    password: ${mysql_password}
+    driver-class-name: com.mysql.cj.jdbc.Driver
   jpa:
     hibernate:
       ddl-auto: update
